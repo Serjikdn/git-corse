@@ -8,7 +8,7 @@ body {
     color: antiquewhite;
     margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
-    min-width: 400px;
+    min-width: 360px;
 
 }
 
@@ -140,12 +140,13 @@ header {
     font-size: 100px;
     color: white;
     mix-blend-mode: multiply;
+    padding: 0 10px;
 }
 
 /*Main start */
 .title-section {
     text-align: center;
-    padding: 35px 0 0px;
+    padding: 15px 0 15px;
 }
 
 h1 {
@@ -288,5 +289,25 @@ footer {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+    }
+    .main-top {
+        /* margin: 0; */
+        padding: 0;
+    }
+}
+@media (max-width: 400px) {
+    .cont-row p {
+        padding: 10px;
+    }
+    .text-picture p {
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+    .info p {
+        margin: 5px;
+    }
+    
+    .title{
+        font-size: 50px;
     }
 }
