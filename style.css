@@ -290,10 +290,6 @@ footer {
         flex-flow: column nowrap;
         align-items: center;
     }
-    .main-top {
-        /* margin: 0; */
-        padding: 5px 0;
-    }
 }
 @media (max-width: 400px) {
     .cont-row p {
