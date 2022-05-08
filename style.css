@@ -149,6 +149,7 @@ header {
 }
 
 h1 {
+    margin: 0;
     font-size: 3rem;
     padding-left: 10px;
     text-shadow: -3px -3px 3px #242424, 3px 3px 3px black;
@@ -173,7 +174,7 @@ h1 {
 }
 
 .pic {
-    width: 55%;
+    width: 50%;
     height: 100%;
     margin: 20px;
     display: block;
@@ -191,7 +192,11 @@ h1 {
 
 .text-picture {
     padding: 5px;
-    width: 45%;
+    width: 50%;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 footer {
@@ -222,7 +227,10 @@ footer {
     font-size: 2em;
     line-height: 2em;
 }
-
+@media (max-width: 1200px){
+    .text-picture {
+       font-size: 80%;
+}
 @media (max-width: 991px) {
     .cont-row {
         flex-flow: column;
@@ -237,11 +245,11 @@ footer {
     }
     .pic {
         width: 90%;
-        
+        font-size: 100%;
     }
     .text-picture {
         width: 100%;
-        font-size: 1em;
+        
     }
     h1 {
         text-align: center;
@@ -258,5 +266,11 @@ footer {
     }
     .info-words {
         font-size: 1em;
+    }
+}
+@media (max-width: 767px){
+    .info {
+        flex-flow: column nowrap;
+        align-items: center;
     }
 }
