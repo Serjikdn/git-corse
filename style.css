@@ -47,7 +47,7 @@ header {
     width: 320px;
     display: flex;
     flex-wrap: nowrap;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     font-size: 1em;
     transition: .65s;
 }
