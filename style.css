@@ -66,6 +66,10 @@ header {
     color: green;
 }
 
+.open {
+    color: white;
+}
+
 .logo {
     text-decoration: none;
     color: white;
