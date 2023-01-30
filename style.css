@@ -247,7 +247,7 @@ footer {
 
     .main-top {
         flex-direction: column;
-        font-size: .6rem;
+        /*font-size: .6rem;*/
     }
 
     .pic {
